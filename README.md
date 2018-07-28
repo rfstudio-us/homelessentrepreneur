@@ -21,26 +21,31 @@ https://docs.djangoproject.com/en/2.0/ref/contrib/gis/install/
 
 #### Install Django Rest Framework
 http://www.django-rest-framework.org/
-pip install djangorestframework
+  pip install djangorestframework
 
 #### Install Djoser
 https://github.com/sunscrapers/djoser
-pip install djoser
+  pip install djoser
 
 #### Install Django Simple History
 https://django-simple-history.readthedocs.io/en/latest/
-pip install django-simple-history
+  pip install django-simple-history
 
 #### Install psycopg2
 Used for Connecting PGSQL Database
-pip install psycopg2
+  pip install psycopg2
 
 #### Install Django Rest Framework JWT
 https://github.com/GetBlimp/django-rest-framework-jwt
-pip install djangorestframework-jwt
+  pip install djangorestframework-jwt
 
-## Create new django app and Clone Homeless Entrepreneur App Code
+## Clone Homeless Entrepreneur App Code
+you will need to edit settings.py file in erefugio and add your own temeplate directory.
+create PGSQL database with POSTGIS extension 
 
+run 
+     python manage.py runserver 
+in root directory of app code to run server on the localhost.
 
 
 # For Contributions: 
